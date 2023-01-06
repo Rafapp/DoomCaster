@@ -1,2 +1,2 @@
-# SpinningCube
-C Program that renders  a 3D spinning cube. Created to improve my knowledge in C /C++and 3D graphics.
+# Doom Raycast Renderer
+C/C++ program that renders the map created in the "map builder" using a raycasting algorithm in a style similar to games like Doom, or Wolfenstein.
