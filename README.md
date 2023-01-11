@@ -36,7 +36,7 @@ I have nothing but respect for the developers of id software, since they are som
 
 ### Resources used:
 - OpenGL: https://www.opengl.org
-- Learnning OpenGL: https://learnopengl.com/Getting-started/OpenGL
+- Learning OpenGL: https://learnopengl.com/Getting-started/OpenGL
 - Wikipedia, ray casting: https://en.wikipedia.org/wiki/Ray_casting
 - Wikipedia, id software: https://en.wikipedia.org/wiki/Id_Software
 - Doom Fan Wiki, Logo: https://doom.fandom.com/wiki/Logo
