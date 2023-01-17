@@ -39,7 +39,7 @@ $$Z = Z_0 + (t * D_z)$$
 These rays can be casted in multiple ways from a "camera," which is a perspective. The most popular ones are:<br>
 
 #### ***Isometric***<br>
-The projection lines are completely orthogonal to the screen, meaning completely "Straight." This perspective is used in a lot of modern games.
+The projection lines are completely orthogonal to the screen, meaning completely "Straight." This perspective is used commonly in city building games such as Age of Empires, or StarCraft.
 <p align = "center">
   <img height="300" src="https://user-images.githubusercontent.com/38381290/212803113-7ee86e60-cbad-49ba-a6ff-c13f5fa647e0.png">
   <img height = "300"  src = "https://user-images.githubusercontent.com/38381290/212802817-4befeda8-da38-47b1-9385-48e523917127.jpg">
@@ -52,6 +52,18 @@ The projection lines all funnel out from a single point, in a similar way to how
   <img height = 300 src="https://user-images.githubusercontent.com/38381290/212804836-a7e1ca33-79c7-4915-83c2-65fddae25112.png">
 >
 </p>
+
+#### The Ray Casting algorithm
+We will be using one of the early forms of ray casting, which casts rays in a 2D map which translates to a 3D environment.<br>
+- In order to render the screen at any given point, the following steps are taken:
+1. Given geometric definitions of game surfaces (i.e. walls) $n$ rays are projected at regular angle intervals, so that each ray can intersect with a different map element to be rendered on the screen. 
+2. We store the $t$ parameters from these rays in an array we call t[n], this gives us the distance in $x,y,z$ coordinates to a wall hit or wall exit.
+3. We store the $S$ surface which was hit. This surface may have information such as material, transparency, and color and is stored in an array S[n].
+<p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/38381290/212807160-137bf0a2-f147-4a34-9b2a-b97ff5e87901.gif">
+  <p align="center"><i>Vieira L., Own Work, 2012</p>
+</p>
+
 
 ### Run it!
 > In progress ...
