@@ -75,6 +75,7 @@ We will be using one of the early forms of ray casting, which casts rays in a 2D
 - Wikipedia, id software: https://en.wikipedia.org/wiki/Id_Software
 - Doom Fan Wiki, Logo: https://doom.fandom.com/wiki/Logo
 - w3cschools, c++: https://www.w3schools.com/cpp/default.asp
+- Video that helped me a ton: https://www.youtube.com/watch?v=eOCQfxRQ2pY
 
 
 
