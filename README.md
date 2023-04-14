@@ -35,7 +35,8 @@ OpenGL (Open Graphics Library) is a cross-platform API (Application Programming 
 
 My first step, was to create a simple program, this is the "Hello world!" of 3D graphics, which is drawing a triangle by connecting 3 vertex with different colors.
 <p align = "center">
-<img width="500px" alt="image" src="https://user-images.githubusercontent.com/38381290/231916088-ce0dc23c-9d6a-4749-8d3a-3b298d99652c.png">
+<img width="400" src="https://user-images.githubusercontent.com/38381290/231918211-7a48428c-6925-44c6-9067-08079a7b16a5.gif">
+
 </p>
 The original program was rather simple, so I decided to make the triangle spin using circle geometry, and the sin/cos functions ( Script is in /LearningFiles/Triangle ) and it spins given a movement speed, which is fun!
 
