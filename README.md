@@ -27,6 +27,18 @@ I have nothing but respect for the developers of id software, since they are som
 
 ### How?
 
+#### C/C++
+I started by refreshing my knowledge of C and C++. To do so, I created the programs learning.c and learning.cpp in the /learning folder, where I studied math functions, I/O, bitwise and logical operations etc. After doing so, I wanted to get started with 3D graphics.
+
+#### OpenGL
+OpenGL (Open Graphics Library) is a cross-platform API (Application Programming Interface) for rendering 2D and 3D computer graphics. I chose it, since it's standardized among the industry, and although its use is not as frequent nowadays, it can give a solid understanding of computer graphics.
+
+My first step, was to create a simple program, this is the "Hello world!" of 3D graphics, which is drawing a triangle by connecting 3 vertex with different colors.
+<p align = "center">
+<img width="500px" alt="image" src="https://user-images.githubusercontent.com/38381290/231916088-ce0dc23c-9d6a-4749-8d3a-3b298d99652c.png">
+</p>
+The original program was rather simple, so I decided to make the triangle spin using circle geometry, and the sin/cos functions ( Script is in /LearningFiles/Triangle ) and it spins given a movement speed, which is fun!
+
 > In progress ...
 
 #### Rays:<br>
